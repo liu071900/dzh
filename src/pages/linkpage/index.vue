@@ -2,7 +2,7 @@
   <div class="d-flex">
     <Menu :items="menuItems" @change="changeContent" style="flex:0 0 auto"></Menu>
     <div class="detail-body black">
-      <iframe :src="contentSrc"> </iframe>
+      <iframe :src="contentSrc" name="iframe" onload="iframeLoad" > </iframe>
       <v-speed-dial
         right
         fixed
@@ -35,12 +35,22 @@ export default {
     contentSrc:"https://www.12371.cn/"
     };
   },
+  mounted(){
+    window.frames[0].document.onload=function(){
+      console.log("============")
+    }
+    
+  },
   methods:{
       goHome(){
           this.$router.push("/")
       },
       changeContent(item){
         this.contentSrc=item.src
+      },
+      iframeLoad(){
+        
+        console.log("=========")
       }
   }
 };

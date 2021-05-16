@@ -38,7 +38,7 @@ export default {
     margin: 0;
     padding: 0 !important;
     height: calc(100vh);
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #5C0000;;
     .c-menu-item{
         cursor: pointer;
         font-size: 1rem;
@@ -55,8 +55,9 @@ export default {
         z-index: 999;
         cursor: pointer;
         padding-left: 16px;
+        color: #C91309;
         height: 100%;
-        background-color: rgb(202,0,0);
+        background-color: #ffffff;
         position: absolute;
         width: 204px;
         left: 0;

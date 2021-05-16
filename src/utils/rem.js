@@ -29,24 +29,28 @@ function rem2Px(remRate){
 // 窗口变化时候调整rem
 function resizeRem(){
     let owidth = document.body.clientWidth;
-    if(owidth>=1904){
+    if(owidth>=2200){
+        setRem(28)
+    }else if(owidth<2200 && owidth>=1904){
         setRem(24)
     }else if(owidth<1904 && owidth>=1264){
         setRem(16)
     }else if(owidth<1350 && owidth>=1024){
-        setRem(12)
+        setRem(14)
     }else if(owidth<1024 && owidth>=900){
-        setRem(8)
+        setRem(14)
     }else{
         setRem(12)
     }
+}
+function getRem(){
+    return _currentRem
 }
 
 
 
 
-
 export {
-    setRem,rem2Px
+    setRem,rem2Px,getRem
 
 }

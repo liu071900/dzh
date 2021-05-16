@@ -2,6 +2,9 @@ import dangwushuku from "../../assets/images/党务书库.png"
 import liangxueyizuo from "../../assets/images/两学一做 拷贝.png"
 import dangshixuexi from "../../assets/images/党史学习.png"
 import buwangchxin from "../../assets/images/不忘初心.png"
+import shizhengredian from "../../assets/images/时政热点.png"
+import sixianglilun from "../../assets/images/思想理论.png"
+
 
 
 import danweijianjie from "../../assets/images/单位简介.png"
@@ -17,10 +20,10 @@ import avatar from "../../assets/images/入党誓词.png"
 
 const newsNavIcons=[
     [
-        {src:avatar,title:"时政热点"},
-        {src:liangxueyizuo,title:"两学一做"},
-        {src:avatar,title:"学党章党规"},
-        {src:avatar,title:"学系列讲话"},
+        {src:shizhengredian,title:"时政热点"},
+        {src:sixianglilun,title:"思想理论"},
+        {src:avatar,title:"组织工作"},
+        {src:avatar,title:"党规党章"},
         {src:avatar,title:"做合格党员"},
     ],
     [

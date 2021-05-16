@@ -6,6 +6,7 @@ import router from "./router"
 import request from "./network/http"
 
 import "./global.css";
+// import './registerServiceWorker'
 
 
 Vue.config.productionTip = false;
