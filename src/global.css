@@ -1,0 +1,50 @@
+  html{
+    overflow-y: hidden !important;
+  }
+  
+  /* 滚动条样式 */
+  ::-webkit-scrollbar {
+    width: 8px;
+    /*padding: 20px 0;*/
+    margin: 20px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+}
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,0.1);
+}
+/* 
+html {
+  font-size : 16px;
+}
+@media only screen and (min-width: 401px){
+  html {
+      font-size: 25px !important;
+  }
+}
+@media only screen and (min-width: 428px){
+  html {
+      font-size: 26.75px !important;
+  }
+}
+@media only screen and (min-width: 481px){
+  html {
+      font-size: 30px !important; 
+  }
+}
+@media only screen and (min-width: 569px){
+  html {
+      font-size: 12px !important; 
+  }
+}
+
+@media only screen and (min-width: 641px){
+  html {
+      font-size: 16px !important; 
+  }
+} */
